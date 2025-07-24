@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Купить клиент - Linux Client</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: #fff;
+            margin: 0;
+            font-size: 24px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .purchase-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .purchase-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            min-width: 250px;
+            padding: 20px;
+            text-align: center;
+        }
+        .purchase-card h3 {
+            margin: 0 0 10px;
+            font-size: 22px;
+            color: #1a1a1a;
+        }
+        .purchase-card p {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #555;
+        }
+        .purchase-card .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #28a745;
+            margin: 10px 0;
+        }
+        .purchase-card button {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .purchase-card button:hover {
+            background-color: #218838;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .purchase-card {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LINUX</h1>
+        <nav>
+            <a href="glav.html">Главная</a>
+            <a href="profile.html">Профиль</a>
+            <a href="buy.html">Купить клиент</a>
+            <a href="glav.html">Выйти</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Купить клиент</h2>
+        <p>Выберите подходящий тариф для доступа к нашему клиенту с отличными combat функциями</p>
+        <div class="purchase-section">
+            <div class="purchase-card">
+                <h3>30 дней</h3>
+                <p>Полный доступ на месяц</p>
+                <p class="price">150₽</p>
+                <button>Купить</button>
+            </div>
+            <div class="purchase-card">
+                <h3>3 месяца</h3>
+                <p>Полный доступ на квартал</p>
+                <p class="price">300₽</p>
+                <button>Купить</button>
+            </div>
+            <div class="purchase-card">
+                <h3>Навсегда</h3>
+                <p>Пожизненный доступ</p>
+                <p class="price">500₽</p>
+                <button>Купить</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Linux Client</p>
+    </footer>
+</body>
+</html>
